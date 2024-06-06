@@ -1,0 +1,9 @@
+.App {
+  &--navigation {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: #eee;
+  }
+}

@@ -1,0 +1,18 @@
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 825px;
+  margin: 0px auto;
+  padding: 10px;
+  &--list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &--cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  }
+}
